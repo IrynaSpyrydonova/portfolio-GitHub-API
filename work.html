@@ -9,43 +9,36 @@
 
 </head>
 
-<body>
-
-  <div class="home-container">
-    <header id="header-home">
-      <div class="header-container">
-          <nav id="main-nav">
-              <img src="./public/assets/web-development-glyph-05-512.png" alt="My portfolio" id="logo" class="logo-correct">
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="work.html">Work</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-              </ul>
-          </nav>
-      </div>
-  </header>
-</div>
-<section id="work-a" class="text-center py-3">
-  <div class="container">
-      <h2 class="section-title">My work</h2>
-      <p class="lead">
-        Below you can see some projects, I've been working on lately
-      </p>
-      <div class="items">
-          <div class="item">
-              <div class="item-image">
-                  <img src="img/items/item1.png" alt="">
-              </div>
-              <div class="item-text">
-                  <div class="item-text-wrap">
-                      <p class="item-text-category">Design</p>
-                      <h2 class="item-text-title">Great Gradient</h2>
-                  </div>
-              </div>
-          </div>
+<body class="works-container">
+  <div class="content-wrapper">
+    <div class="home-container">
+      <header id="header-home">
+        <div class="header-container">
+            <nav id="main-nav">
+                <img src="./public/assets/web-development-glyph-05-512.png" alt="My portfolio" id="logo" class="logo-correct">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  </div>
+  <section id="work-a" class="text-center">
+    <div class="container">
+        <h2 class="section-title">My work</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+            Check out some of my projects
+        </p>
+        <div class="items">
+        </div>
+    </div>
 </section>
 
+  </div>
 <footer id="main-footer">
     <div class="footer-content container">
         <p>Copyright &copy; 2020. All Rights Reserved</p>
@@ -57,6 +50,8 @@
         </div>
     </div>
 </footer>
+
+
 
 <!-- load your app -->
   <script type='module' src='./src/init.js'></script>
